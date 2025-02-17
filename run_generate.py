@@ -89,7 +89,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
     # parser.add_argument("--model_name", type=str, default="facebook/opt-125m")
-    parser.add_argument("--model_name", type=str, default="decapoda-research/llama-7b-hf")
+    parser.add_argument("--model_name", type=str, default="baffo32/decapoda-research-llama-7B-hf")
     parser.add_argument("--fraction", type=float, default=0.5)
     parser.add_argument("--strength", type=float, default=2.0)
     parser.add_argument("--wm_key", type=int, default=0)
